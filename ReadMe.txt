@@ -1,6 +1,6 @@
 Changelog: 
-Date			Author			Version					Changes
-18-02-2026		AS				1.0						Document Creation	
+Date			   Author			Version					Changes
+18-02-2026		AS				   1.0						Document Creation	
 
 
 Rules for MasterLibrary
@@ -55,6 +55,7 @@ Rules for MasterLibrary
 
 Designator Assignment Convention
 %--------------------------------%
+
 | Component Type | Designator  | Example |
 | -------------- | ----------  | ------- |
 | Resistor       | R?          | R15     |
@@ -154,6 +155,23 @@ Connector:
 
 *Examples: 
 	CON2: 282837-2
+
+
+Diodes: 
+-------
+*Syntax
+	<Type> <Vr Voltage> <If_Max/Power> <Package>
+
+*Type: 
+   ZD -  Zener Diode
+   SD -  Schottky Diode
+   D  -  General Diode
+
+*Examples: 
+	D 1kV 1A SOD-123-FL2
+   ZD 10V 0.2W SOD-323F
+
+
 	
 	
 	
