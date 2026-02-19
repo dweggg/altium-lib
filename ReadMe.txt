@@ -94,7 +94,7 @@ Resistor:
 Capacitor:
 -----------
 *Syntax: 
-	<Value> <Tolerance> <Power> <Di-Electric> <Package> 
+	<Value> <Tolerance> <Voltage> <Di-Electric> <Package> 
 
 *Sufix: 
 	pico farad 	- XXXpF 
