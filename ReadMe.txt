@@ -171,7 +171,15 @@ Diodes:
 	D 1kV 1A SOD-123-FL2
    ZD 10V 0.2W SOD-323F
 
+Fuse:
+-----
 
+*Syntax
+   F <Operating Current> <Trip Current> <Max Voltage> <Package>
+	
+*Examples:
+   F 0.75A 1.5A 33V 1812   
+	
 	
 	
 	
